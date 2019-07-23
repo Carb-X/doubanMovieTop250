@@ -3,7 +3,7 @@ from scrapy import Request
 from doubanMovieTop250.items import DoubanMovieItem
 
 
-class DoubanSpider(Spider):
+class DoubanMovieTop250Spider(Spider):
 
     name = 'douban_movie_top250'
     start_urls = ['https://movie.douban.com/top250']
